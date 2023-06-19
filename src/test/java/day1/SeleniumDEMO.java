@@ -23,6 +23,5 @@ public class SeleniumDEMO {
         WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(By.id("42304-cinepolis-town-center-el-rosario-el-aro-4")));
         clickableElement.click();
         driver.quit();
-        driver = browserGetter.getChromeDriver();
-    }
+         }
 }
